@@ -17,7 +17,7 @@ const Menu: React.FC = props => {
   return (
     <UikitMenu
       links={links}
-      priceLink="https://www.coingecko.com/en/coins/zoneswap"
+      priceLink="https://poocoin.app/tokens/0x81e032c97a5cbbf06851412e2b1adcb2b51de9d1"
       account={account as string}
       login={(connectorId: ConnectorId) => {
         if (connectorId === 'walletconnect') {
