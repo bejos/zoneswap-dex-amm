@@ -15,12 +15,12 @@ const config: MenuEntry[] = [
         href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x81e032c97a5cbbf06851412e2b1adcb2b51de9d1',
       },
       {
-        label: 'Swap OLD',
-        href: '/swap',
-      },
-      {
         label: 'Liquidity V2',
         href: 'https://exchange.pancakeswap.com/#/add/ETH/0x81e032c97a5cbbf06851412e2b1adcb2b51de9d1',
+      },
+      {
+        label: 'Swap OLD',
+        href: '/swap',
       },
       {
         label: 'Liquidity OLD',
