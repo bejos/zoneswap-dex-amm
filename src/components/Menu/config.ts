@@ -11,20 +11,12 @@ const config: MenuEntry[] = [
     icon: 'TradeIcon',
     items: [
       {
-        label: 'Swap V2',
-        href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x81e032c97a5cbbf06851412e2b1adcb2b51de9d1',
+        label: 'Swap',
+        href: '#/swap',
       },
       {
-        label: 'Liquidity V2',
-        href: 'https://exchange.pancakeswap.com/#/add/ETH/0x81e032c97a5cbbf06851412e2b1adcb2b51de9d1',
-      },
-      {
-        label: 'Swap OLD',
-        href: '/swap',
-      },
-      {
-        label: 'Liquidity OLD',
-        href: '/pool',
+        label: 'Liquidity',
+        href: '#/pool',
       },
     ],
   },
@@ -79,13 +71,6 @@ const config: MenuEntry[] = [
         label: 'Github',
         href: 'https://github.com/zoneswap/',
       },
-    ],
-  },
-  {
-    label: 'Audit',
-    icon: 'AuditIcon',
-    href: 'https://certik.org/projects/cookiesswap',
-  },
 ]
 
 export default config
