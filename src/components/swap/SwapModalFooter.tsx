@@ -1,6 +1,6 @@
-import { Trade, TradeType } from '@wizswap-libs/sdk'
+import { Trade, TradeType } from '@pancakeswap-libs/sdk'
 import React, { useMemo, useState } from 'react'
-import { Text , Button } from '@wizswap-libs/uikit'
+import { Text , Button } from '@pancakeswap-libs/uikit'
 import { Repeat } from 'react-feather'
 
 import { Field } from '../../state/swap/actions'
