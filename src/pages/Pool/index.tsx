@@ -63,7 +63,7 @@ export default function Pool() {
     <>
       <CardNav activeIndex={1} />
       <AppBody>
-        <PageHeader title="Liquidity" description="Add liquidity to receive WIZ-LP tokens">
+        <PageHeader title="Liquidity" description="Add liquidity to receive LP tokens">
           <Button id="join-pool-button" as={Link} to="/add/ETH">
             <TranslatedText translationId={100}>Add Liquidity</TranslatedText>
           </Button>
@@ -119,7 +119,7 @@ export default function Pool() {
                   </StyledInternalLink>
                 </Text>
                 <Text fontSize="14px" style={{ padding: '.5rem 0 .5rem 0' }}>
-                  Or, if you staked your WIZ-LP tokens in a farm, unstake them to see them here.
+                  Or, if you staked your LP tokens in a farm, unstake them to see them here.
                 </Text>
               </div>
             </AutoColumn>

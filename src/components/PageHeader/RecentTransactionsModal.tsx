@@ -5,40 +5,30 @@ import { getEtherscanLink } from 'utils'
 import { isTransactionRecent, useAllTransactions } from 'state/transactions/hooks'
 import { TransactionDetails } from 'state/transactions/reducer'
 import Loader from 'components/Loader'
-
 type RecentTransactionsModalProps = {
   onDismiss?: () => void
 }
-
 // TODO: Fix UI Kit typings
 const defaultOnDismiss = () => null
-
 const newTransactionsFirst = (a: TransactionDetails, b: TransactionDetails) => b.addedTime - a.addedTime
-
 const getRowStatus = (sortedRecentTransaction: TransactionDetails) => {
   const { hash, receipt } = sortedRecentTransaction
-
   if (!hash) {
     return { icon: <Loader />, color: 'text' }
   }
-
   if (hash && receipt?.status === 1) {
     return { icon: <CheckmarkCircleIcon color="success" />, color: 'success' }
   }
-
   return { icon: <ErrorIcon color="failure" />, color: 'failure' }
 }
-
 const RecentTransactionsModal = ({ onDismiss = defaultOnDismiss }: RecentTransactionsModalProps) => {
   const { account, chainId } = useActiveWeb3React()
   const allTransactions = useAllTransactions()
-
   // Logic taken from Web3Status/index.tsx line 175
   const sortedRecentTransactions = useMemo(() => {
     const txs = Object.values(allTransactions)
     return txs.filter(isTransactionRecent).sort(newTransactionsFirst)
   }, [allTransactions])
-
   return (
     <Modal title="Recent Transactions" onDismiss={onDismiss}>
       {!account && (
@@ -66,7 +56,6 @@ const RecentTransactionsModal = ({ onDismiss = defaultOnDismiss }: RecentTransac
         sortedRecentTransactions.map((sortedRecentTransaction) => {
           const { hash, summary } = sortedRecentTransaction
           const { icon, color } = getRowStatus(sortedRecentTransaction)
-
           return (
             <>
               <Flex key={hash} alignItems="center" justifyContent="space-between" mb="4px">
@@ -81,5 +70,4 @@ const RecentTransactionsModal = ({ onDismiss = defaultOnDismiss }: RecentTransac
     </Modal>
   )
 }
-
 export default RecentTransactionsModal
