@@ -11,10 +11,10 @@
   "keywords": ["pancake", "default"],
   "tokens": [
     {
-      "name": "ZoneSwap",
-      "symbol": "ZONE",
-      "address": "0x81e032c97a5cbbf06851412e2b1adcb2b51de9d1",
-      "chainId": 56,
+      "name": "BOW Token",
+      "symbol": "BOW",
+      "address": "0x1a639e150d2210a4be4a5f0857a9151b241e7ae4",
+      "chainId": 1116,
       "decimals": 18,
       "logoURI": "/images/coins/EGG.png"
     },
@@ -22,7 +22,7 @@
       "name": "WBNB Token",
       "symbol": "WBNB",
       "address": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "chainId": 97,
+      "chainId": 1115,
       "decimals": 18,
       "logoURI": "/images/coins/BUSD.png"
     },
@@ -30,14 +30,14 @@
       "name": "WBNB Token",
       "symbol": "WBNB",
       "address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "chainId": 56,
+      "chainId": 1116,
       "decimals": 18
     },
     {
       "name": "LP3 Token",
       "symbol": "LP3",
       "address": "0xe70b7523f4bffa1f2e88d2ba709afd026030f412",
-      "chainId": 97,
+      "chainId": 1115,
       "decimals": 18,
       "logoURI": "/images/coins/ETH.png"
     },
@@ -45,7 +45,7 @@
       "name": "BUSD Token",
       "symbol": "BUSD",
       "address": "0x615446C0Fd5eA8A5FD7fb763f3FC2C58774474F3",
-      "chainId": 97,
+      "chainId": 1115,
       "decimals": 18,
       "logoURI": "/images/coins/BTC.png"
     },
@@ -53,7 +53,7 @@
       "name": "BUSD Token",
       "symbol": "BUSD",
       "address": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-      "chainId": 56,
+      "chainId": 1116,
       "decimals": 18,
       "logoURI": "/images/coins/BUSD.png"
     },
@@ -61,7 +61,7 @@
       "name": "Ethereum Token",
       "symbol": "ETH",
       "address": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
-      "chainId": 56,
+      "chainId": 1116,
       "decimals": 18,
       "logoURI": "/images/coins/ETH.png"
     },
@@ -69,7 +69,7 @@
       "name": "BTCB Token",
       "symbol": "BTCB",
       "address": "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c",
-      "chainId": 56,
+      "chainId": 1116,
       "decimals": 18,
       "logoURI": "/images/coins/BTC-icon.png"
     },
@@ -77,7 +77,7 @@
       "name": "EOS Token",
       "symbol": "EOS",
       "address": "0x56b6fb708fc5732dec1afc8d8556423a2edccbd6",
-      "chainId": 56,
+      "chainId": 1116,
       "decimals": 18,
       "logoURI": "/images/coins/eos.png"
     },
@@ -85,7 +85,7 @@
       "name": "Tether USD",
       "symbol": "USDT",
       "address": "0x55d398326f99059ff775485246999027b3197955",
-      "chainId": 56,
+      "chainId": 1116,
       "decimals": 18,
       "logoURI": "/images/coins/USDT-icon.png"
     },
@@ -93,7 +93,7 @@
       "name": "Trust Wallet",
       "symbol": "TWT",
       "address": "0x4b0f1812e5df2a09796481ff14017e6005508003",
-      "chainId": 56,
+      "chainId": 1116,
       "decimals": 18
     }
   ]
