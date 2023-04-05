@@ -20,7 +20,7 @@ export const ETH = new Token(ChainId.MAINNET, '0x2170ed0880ac9a755fd29b2688956bd
 
 const WETH_ONLY: ChainTokenList = {
   [ChainId.MAINNET]: [WETH[ChainId.MAINNET]],
-  [ChainId.BSCTESTNET]: [WETH[ChainId.BSCTESTNET]]
+  [ChainId.TESTNET]: [WETH[ChainId.TESTNET]]
 }
 
 // used to construct intermediary pairs for trading
