@@ -11,7 +11,7 @@
   "keywords": ["pancake", "default"],
   "tokens": [
     {
-      "name": "DCS Token",
+      "name": "Dexcoreswap Token",
       "symbol": "DCST",
       "address": "0x1ce9098498a9b8c06070fa90539ebda21b5fbfa8",
       "chainId": 1116,
